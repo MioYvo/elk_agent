@@ -1,0 +1,33 @@
+[DEFAULT]
+auther = mio
+
+[MQ]
+host = 139.219.225.193
+user = h3c
+passwd = 1q2w3e
+
+[EXCHANGE]
+name = exchange_product
+type = direct
+
+[QUEUE_SERVER]
+name = server_queue
+routing_key = server
+
+[QUEUE_TEACHER]
+name = teacher_queue
+routing_key = teacher
+
+[QUEUE_STUDENT]
+name = student_queue
+routing_key = student
+
+[QUEUE_OPLOG]
+name = oplog_queue
+routing_key = oplog
+
+[MYSQL]
+user = root
+passwd = liurusi321
+host = localhost
+db = HORIZON
